@@ -2,7 +2,8 @@
 #define PILHA_H
 
 #define MAX_TORRES 3         // Número de torres do jogo
-#define MAX_DISCOS 64        // Máximo de discos permitidos
+#define MAX_DISCOS 64
+       // Máximo de discos permitidos
 
 // Estrutura Pilha, que representa uma torre com discos
 typedef struct {

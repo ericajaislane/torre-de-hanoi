@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",                                 // Inclui todos os arquivos do seu projeto
+                "C:/MinGW/include",
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include",
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++",
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",                           // Adiciona a versão do padrão C
+            "cppStandard": "c++17",                       // Adiciona a versão do padrão C++
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
